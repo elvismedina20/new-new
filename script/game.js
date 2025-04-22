@@ -60,6 +60,7 @@ window.toggleAutoPossession = function () {
 
 // Function to start the game
 function startGame() {
+  console.log("Play button clicked!");
   ball.reset(player);
   requestAnimationFrame(loop);
 }
